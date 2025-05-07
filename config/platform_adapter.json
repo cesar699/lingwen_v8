@@ -1,0 +1,7 @@
+{
+  "platforms": ["番茄", "七猫", "起点"],
+  "rules": {
+    "title_length": 20,
+    "banned_words": ["禁词1", "禁词2"]
+  }
+}

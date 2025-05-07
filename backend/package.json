@@ -1,0 +1,22 @@
+{
+  "name": "lingwen-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "openai": "^4.0.0",
+    "epub-gen": "^0.1.0",
+    "officegen": "^0.11.0",
+    "dotenv": "^16.0.0",
+    "helmet": "^6.0.0",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^7.0.0",
+    "morgan": "^1.10.0"
+  }
+}

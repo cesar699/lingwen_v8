@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    ports:
+      - "${PORT}:3000"
+    volumes:
+      - ./database:/app/database
+      - ./export:/app/export
+  frontend:
+    build: ./frontend
+    env_file: .env
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
